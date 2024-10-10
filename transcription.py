@@ -6,7 +6,7 @@ st.write('Enter a youtube video url for transcription extraction.')
 
 #User input for Youtube URL
 youtube_url = st.text_input('Youtube URL', "")
-if st.button('Load Video'):
+if st.button('Load Text'):
     if youtube_url:
         try:
             loader = YoutubeLoader.from_youtube_url(youtube_url, add_video_info = True)
