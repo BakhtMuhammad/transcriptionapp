@@ -1,7 +1,7 @@
 import streamlit as st
 from langchain_community.document_loaders import YoutubeLoader
 
-st.title('Bakht\'s Youtube Transcript Extractor')
+st.title('Bakht\'s YouTube Transcriptor')
 st.write('Enter a youtube video url for transcription extraction')
 
 #User input for Youtube URL
